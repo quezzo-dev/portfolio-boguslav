@@ -1,0 +1,58 @@
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: $white-color;
+  width: 100vw;
+  height: 100%;
+  overflow: auto;
+  visibility: hidden;
+  pointer-events: none;
+
+  &__container {
+    position: relative;
+  }
+
+  &__burger {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 66px;
+    right: 30px;
+  }
+
+  &__cross {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 66px;
+    right: 30px;
+  }
+
+  &__list {
+    padding-top: 66px;
+    font-weight: $fw-semi-bold;
+    font-size: 34px;
+    line-height: 1.2;
+  }
+
+  &__item {
+    &:not(:first-child) {
+      margin-top: 55px;
+      color: $grey-color;
+    }
+  }
+}
+
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+@media screen and (min-width: 950px) {
+  .mobile-menu,
+  .mobile-menu__burger {
+    display: none;
+  }
+}

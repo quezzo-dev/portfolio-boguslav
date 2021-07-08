@@ -1,0 +1,26 @@
+.about {
+  background-color: $bg-color;
+
+  &__title {
+    padding-top: 81px;
+    font-weight: $fw-semi-bold;
+    font-size: 34px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  &__list {
+    font-size: 18px;
+    font-weight: $fw-regular;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 71px;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 35px;
+    }
+  }
+}
