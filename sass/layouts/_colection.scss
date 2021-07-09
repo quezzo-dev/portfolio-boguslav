@@ -1,0 +1,25 @@
+.colection {
+  padding-top: 57px;
+  padding-bottom: 57px;
+
+  &__title {
+    font-weight: $fw-semi-bold;
+    font-size: 34px;
+    line-height: 1.2;
+    margin-bottom: 50px;
+  }
+
+  &__picture {
+    display: block;
+    text-align: center;
+    max-width: 316px;
+    width: 100%;
+    margin: 0;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+}

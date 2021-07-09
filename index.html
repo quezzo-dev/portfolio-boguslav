@@ -162,8 +162,110 @@
           </ul>
         </div>
       </section>
+
+      <section class="portfolio">
+        <div class="container">
+          <h2 class="portfolio__title">Portfolio</h2>
+
+          <ul class="portfolio__list">
+            <li class="portfolio__item">
+              <a href="./colection1.html" class="portfolio__link">
+                <picture class="portfolio__picture">
+                  <source
+                    srcset="
+                      ./images/portfolio/colection-mobile1-min.jpg    1x,
+                      ./images/portfolio/colection-mobile1@2x-min.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/portfolio/colection-mobile1-min.jpg"
+                    alt="Portfolio image"
+                  />
+                </picture>
+
+                Collection - 1
+              </a>
+            </li>
+
+            <li class="portfolio__item">
+              <a href="./colection2.html" class="portfolio__link">
+                <picture class="portfolio__picture">
+                  <source
+                    srcset="
+                      ./images/portfolio/colection-mobile2-min.jpg    1x,
+                      ./images/portfolio/colection-mobile2@2x-min.jpg 2x
+                    "
+                  />
+                  <img
+                    src="./images/portfolio/colection-mobile2-min.jpg"
+                    alt="Portfolio image"
+                  />
+                </picture>
+
+                Collection - 2
+              </a>
+            </li>
+
+            <li class="portfolio__item">
+              <iframe
+                width="316"
+                height="171"
+                src="https://www.youtube.com/embed/2PJr3oDX-UU"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <div class="container">
+          <h2 class="contacts__title">Contacts</h2>
+          <h3 class="contacts__subtitle">
+            Want to know more or just chat? You are welcome!
+          </h3>
+
+          <a href="mailto:" class="contacts__btn">Send message</a>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link" target="_blank">
+              <svg width="40" height="40">
+                <use href="./images/footer/sprite.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="footer__item">
+            <a href="#" class="footer__link" target="_blank">
+              <svg width="40" height="40">
+                <use href="./images/footer/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="footer__item">
+            <a href="#" class="contacts__link" target="_blank">
+              <svg width="40" height="40">
+                <use href="./images/footer/sprite.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <p class="footer__description">
+          Like me on LinkedIn, GitHub, Instagram
+        </p>
+      </div>
+    </footer>
+
     <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

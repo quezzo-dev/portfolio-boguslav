@@ -19,7 +19,9 @@
   &__picture {
     display: block;
     margin: 0 auto;
-    max-width: 316px;
-    padding-bottom: 83px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 83px;
   }
 }

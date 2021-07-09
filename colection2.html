@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boukiga</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Uchen&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <button type="button" class="mobile-menu__burger" data-menu-button>
+          <img
+            src="./images/mobile-burger.svg"
+            alt="Mobile menu button"
+            width="30"
+            height="20"
+          />
+        </button>
+      </div>
+
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu__container">
+          <button type="button" class="mobile-menu__cross" data-menu-close>
+            <img
+              src="./images/mobile-cross.svg"
+              alt="Mobile menu button"
+              width="23"
+              height="23"
+            />
+          </button>
+
+          <nav class="mobile-menu__nav">
+            <ul class="mobile-menu__list">
+              <li class="mobile-menu__item">
+                <a href="" class="mobile-menu__link">Home</a>
+              </li>
+              <li class="mobile-menu__item">
+                <a href="" class="mobile-menu__link">About me</a>
+              </li>
+              <li class="mobile-menu__item">
+                <a href="" class="mobile-menu__link">Skills</a>
+              </li>
+              <li class="mobile-menu__item">
+                <a href="" class="mobile-menu__link">Portfolio</a>
+              </li>
+              <li class="mobile-menu__item">
+                <a href="" class="mobile-menu__link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="colection">
+        <div class="container">
+          <h1 class="colection__title">Colection #2</h1>
+          <ul class="colection__list">
+            <li class="colection__item">
+              <picture class="colection__picture">
+                <source
+                  srcset="
+                    ./images/portfolio/colection/colection2-1-mobile-min.jpg    1x,
+                    ./images/portfolio/colection/colection2-1-mobile@2x-min.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/portfolio/colection/colection2-1-mobile-min.jpg"
+                  alt="Colection Image"
+                />
+              </picture>
+            </li>
+
+            <li class="colection__item">
+              <picture class="colection__picture">
+                <source
+                  srcset="
+                    ./images/portfolio/colection/colection2-2-mobile-min.jpg    1x,
+                    ./images/portfolio/colection/colection2-2-mobile@2x-min.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/portfolio/colection/colection2-2-mobile-min.jpg"
+                  alt="Colection Image"
+                />
+              </picture>
+            </li>
+
+            <li class="colection__item">
+              <picture class="colection__picture">
+                <source
+                  srcset="
+                    ./images/portfolio/colection/colection2-3-mobile-min.jpg    1x,
+                    ./images/portfolio/colection/colection2-3-mobile@2x-min.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/portfolio/colection/colection1-3-mobile-min.jpg"
+                  alt="Colection Image"
+                />
+              </picture>
+            </li>
+
+            <li class="colection__item">
+              <picture class="colection__picture">
+                <source
+                  srcset="
+                    ./images/portfolio/colection/colection2-4-mobile-min.jpg    1x,
+                    ./images/portfolio/colection/colection2-4-mobile@2x-min.jpg 2x
+                  "
+                />
+                <img
+                  src="./images/portfolio/colection/colection2-4-mobile-min.jpg"
+                  alt="Colection Image"
+                />
+              </picture>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>

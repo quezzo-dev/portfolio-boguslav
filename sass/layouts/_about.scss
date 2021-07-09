@@ -1,6 +1,11 @@
 .about {
   background-color: $bg-color;
 
+  &__container {
+    max-width: 375px;
+    width: 100%;
+  }
+
   &__title {
     padding-top: 81px;
     font-weight: $fw-semi-bold;

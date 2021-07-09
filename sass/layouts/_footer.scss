@@ -1,0 +1,23 @@
+.footer {
+  padding-bottom: 90px;
+  &__list {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
+  }
+
+  &__description {
+    font-weight: $fw-regular;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.2;
+    color: $grey-color;
+  }
+}
