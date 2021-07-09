@@ -2,4 +2,29 @@
   &__container {
     position: relative;
   }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid $grey-color;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    font-weight: $fw-bold;
+    font-size: 18px;
+    line-height: 1.2;
+    color: $grey-color;
+  }
+
+  &__item {
+    &:first-child {
+      color: $primary-color;
+    }
+  }
+}
+
+@media screen and (max-width: 949px) {
+  .header__desktop {
+    display: none;
+  }
 }

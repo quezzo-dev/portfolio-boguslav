@@ -3,4 +3,9 @@
   margin: 0 auto;
   padding-left: 26px;
   padding-right: 26px;
+
+  @media screen and (min-width: 950px) {
+    width: 950px;
+    padding: 0;
+  }
 }
